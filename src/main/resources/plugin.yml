@@ -1,0 +1,17 @@
+name: Backpacks
+version: ${project.version}
+main: dev.reproachful.tappedlol.backpacks.Backpacks
+api-version: 1.13
+authors: [tappedlol]
+description: A simple yet powerful backpack plugin
+
+commands:
+  backpack:
+    description: Give backpacks to players
+    aliases: [bp]
+    permission: backpack.give
+
+permissions:
+  backpack.give:
+    default: op
+    description: Allows for the usage of /backpack
